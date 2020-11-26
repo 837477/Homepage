@@ -4,8 +4,6 @@ BWAI is abbreviations of Bad Words Artificial Intelligence.
 
 It's for final presentation and demo functions.
 
-![#f03c15] `U need to connect with Server, to use Demo, Labelling, and Dashboard Functions`
-
 ## Pages
 ```
     / - Home Page
@@ -18,6 +16,11 @@ It's for final presentation and demo functions.
 ```
 
 ## How To Use
+```diff
+- First, you need to connect with Server to use Demo, Labelling, and Dashboard functions.
+- Or, functions will not work.
+```
+U can change api server url at .env file in the root directory.
 
 ```js
     npm install
