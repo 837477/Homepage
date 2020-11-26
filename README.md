@@ -4,17 +4,6 @@ BWAI is abbreviations of Bad Words Artificial Intelligence.
 
 It is homepage source used in labelling, testing, and final presentation.
 
-## Pages
-```
-    / - Home Page
-    /team - Team Intro Page
-    /service - Service Page
-    /price - Price Policy Page
-    /demo - Demo Function
-    /labelling - Labeling Function
-    /dashboard - Dashbaord Function
-```
-
 ## How To Use
 ```diff
 - First, you need to connect with Server to use Demo, Labelling, and Dashboard functions.
@@ -22,8 +11,7 @@ It is homepage source used in labelling, testing, and final presentation.
 ```
 U can change api server url at ```.env``` file in the ```~/```.
 
-
-## Development
+## How to Run
 ```js
     npm install
     npm run start
@@ -36,6 +24,17 @@ Push using master branch.
 Github Action deploys automatically to s3. 
 
 You can change to other buckets at ```main.yml``` in ```.github/workflows```
+
+## Pages
+```
+    / - Home Page
+    /team - Team Intro Page
+    /service - Service Page
+    /price - Price Policy Page
+    /demo - Demo Function
+    /labelling - Labeling Function
+    /dashboard - Dashbaord Function
+```
 
 ## Contributors
 #### Workers
