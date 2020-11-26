@@ -1,8 +1,8 @@
-## Intro
+## SWMaestro 11 - BWAI
 
 BWAI is abbreviations of Bad Words Artificial Intelligence.
 
-It's for final presentation and demo functions.
+It is homepage source used in labelling, testing, and final presentation.
 
 ## Pages
 ```
@@ -20,7 +20,7 @@ It's for final presentation and demo functions.
 - First, you need to connect with Server to use Demo, Labelling, and Dashboard functions.
 - Or, functions will not work.
 ```
-U can change api server url at .env file in the root directory.
+U can change api server url at ```.env``` file in the ```~/```.
 
 
 ## Development
@@ -32,13 +32,22 @@ U can change api server url at .env file in the root directory.
 ## Deployment
 
 Push using master branch.
-Github Action deploys automatically to s3. (.github/workflows)
+
+Github Action deploys automatically to s3. 
+
+You can change to other buckets at ```main.yml``` in ```.github/workflows```
 
 ## Contributors
+#### Workers
+- [GGULBAE][link_to_GGULBAE]
+- [HanSeokhyeon][link_to_HanSeokhyeon]
+- [837477][link_to_837477]
 
-[GGULBAE][link_to_GGULBAE]
-[HanSeokhyeon][link_to_HanSeokhyeon]
-[837477][link_to_837477]
+#### Mentors
+- 임영재
+- 이정현
+- 노규남
+- 박정환
 
 ##### COPYRIGHT 2020 ALL RIGHTS RESERVED BY BWAI
 
